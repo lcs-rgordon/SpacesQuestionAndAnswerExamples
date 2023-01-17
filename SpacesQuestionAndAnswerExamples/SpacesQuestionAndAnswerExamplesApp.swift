@@ -11,7 +11,11 @@ import SwiftUI
 struct SpacesQuestionAndAnswerExamplesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                
+                
+                
+            }
         }
     }
 }

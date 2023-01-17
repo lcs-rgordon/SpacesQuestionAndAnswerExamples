@@ -21,7 +21,7 @@ struct LayeringImagesView: View {
                     Image("toronto-blue-jays-logo-transparent")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 200)
+                        .frame(width: 100)
                     
                     Spacer()
                 }
@@ -29,6 +29,17 @@ struct LayeringImagesView: View {
                     Rectangle()
                         .stroke(Color.red, lineWidth: 1)
                 )
+                
+                Spacer()
+                
+                VStack {
+                    Image("KellyGruber")
+                        .resizable()
+                        .scaledToFit()
+                    .frame(width: 250)
+                    
+                    Spacer()
+                }
                 
                 Spacer()
                 
